@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="cs" datatype="plaintext" original="messages" date="2013-08-05T15:05:59Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Registrace</source>
+        <target>Registrace</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Predregistrace</source>
+        <target>Předregistrace</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Potvrzene registrace</source>
+        <target>Potvrzené registrace</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Kompletni registrace</source>
+        <target>Kompletní registrace</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Email</source>
+        <target>E-mail</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Texty mailu</source>
+        <target>Texty mailů</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Odeslane maily</source>
+        <target>Odeslané maily</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Omezeni</source>
+        <target>Omezení</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Rezervovane slova</source>
+        <target>Rezervovaná slova</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Nedovolene vyrazy</source>
+        <target>Nedovolené výrazy</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Administrace</source>
+        <target>Administrace</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Správci</source>
+        <target>Správci</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Skupiny</source>
+        <target>Skupiny</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Prava</source>
+        <target>Práva</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Odhlasit</source>
+        <target>Odhlásit</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Seznam emailovych textu</source>
+        <target>Seznam emailových textů</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Zprava</source>
+        <target>Zpráva</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Predmet</source>
+        <target>Předmět</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Seznam nedovolenych slov</source>
+        <target>Seznam nedovolených slov</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Slovo</source>
+        <target>Slovo</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Typ mailu</source>
+        <target>Typ emailové zprávy</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Texty</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Texty na webu</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Zakladni</source>
+        <target>Základní</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Cesky</source>
+        <target>Česky</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Slovensky</source>
+        <target>Slovensky</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Anglicky</source>
+        <target>Anglicky</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>Nemecky</source>
+        <target>Německy</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Actions</source>
+        <target>Akce</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Filters</source>
+        <target>Filtrace</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Show</source>
+        <target>Zobrazit</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

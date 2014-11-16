@@ -1,0 +1,425 @@
+# # Populate this file with data to be loaded by your ORM's *:data-load task.
+# # You can create multiple files in this directory (i.e. 010_users.yml,
+# # 020_articles.yml, etc) which will be loaded in alphabetical order.
+# # 
+# # See documentation for your ORM's *:data-load task for more information.
+# 
+# User:
+#   fabien:
+#     username: fabien
+#     password: changeme
+#     name:     Fabien Potencier
+#     email:    fabien.potencier@symfony-project.com
+#   kris:
+#     username: Kris.Wallsmith
+#     password: changeme
+#     name:     Kris Wallsmith
+#     email:    kris.wallsmith@symfony-project.com
+sfGuardGroup:
+  Group_admin:
+    name:           admin
+    description:    Administrator group
+    Permissions:    [Permission_admin]
+
+sfGuardPermission:
+  Permission_admin:
+    name:           admin
+    description:    Administrator permission
+    
+sfGuardUser:
+  Jan_damek:
+    first_name:     Jan
+    last_name:      Damek
+    email_address:  damekjan74@gmail.com
+    username:       honza
+    password:       katka
+    is_super_admin: true
+    Groups:         [Group_admin]
+#  Tz:
+#    first_name:     Tomas
+#    last_name:      Zalesak
+#    username:       tz
+#    password:       12345
+#    is_super_admin: true
+#    Groups:         [Group_admin]
+
+#vychozi data
+#SendedEmail:
+#  SendedEmail_1:
+#    Registration: Registration_1
+#    hesh: 5156e797d89e708efff593e49015ba3b
+#    EmailTexts: EmailTexts_1
+#    sended_od: '2013-08-05'
+#    send_success: true
+#    created_at: '2013-08-05 13:51:27'
+#    updated_at: '2013-08-05 13:51:50'
+#  SendedEmail_2:
+#    Registration: Registration_2
+#    hesh: 1d0d083981d735ef8f662a8fafce84bd
+#    EmailTexts: EmailTexts_1
+#    sended_od: '2013-08-05'
+#    send_success: true
+#    created_at: '2013-08-05 14:01:15'
+#    updated_at: '2013-08-05 14:02:35'
+#  SendedEmail_3:
+#    Registration: Registration_3
+#    hesh: f82e04d6970a9202a92b4fd1a68b8636
+#    EmailTexts: EmailTexts_1
+#    sended_od: '2013-08-05'
+#    send_success: true
+#    created_at: '2013-08-05 14:23:14'
+#    updated_at: '2013-08-05 14:23:28'
+#  SendedEmail_4:
+#    Registration: Registration_4
+#    hesh: bb388265757f99aef09d021fbe81eff9
+#    EmailTexts: EmailTexts_1
+#    sended_od: '2013-08-05'
+#    send_success: true
+#    created_at: '2013-08-05 14:56:46'
+#    updated_at: '2013-08-05 14:57:19'
+#  SendedEmail_5:
+#    Registration: Registration_5
+#    hesh: 52860832b301c8b20dd57b17b63f8e40
+#    EmailTexts: EmailTexts_1
+#    sended_od: '2013-08-05'
+#    send_success: true
+#    created_at: '2013-08-05 15:19:26'
+#    updated_at: '2013-08-05 15:21:26'
+#  SendedEmail_6:
+#    Registration: Registration_6
+#    hesh: 4f10601dbd7e0069285f11c93a6598ab
+#    EmailTexts: EmailTexts_1
+#    sended_od: '2013-08-05'
+#    send_success: true
+#    created_at: '2013-08-05 15:45:27'
+#    updated_at: '2013-08-05 15:45:40'
+#  SendedEmail_7:
+#    Registration: Registration_7
+#    hesh: 214d7feda9fd2d4b154b8fd60dad6578
+#    EmailTexts: EmailTexts_1
+#    sended_od: '2013-08-05'
+#    send_success: true
+#    created_at: '2013-08-05 17:06:52'
+#    updated_at: '2013-08-05 17:08:18'
+#Notallowed:
+#  Notallowed_1:
+#    word: sex
+#    created_at: '2013-08-05 13:16:54'
+#    updated_at: '2013-08-05 13:16:54'
+#  Notallowed_2:
+#    word: prdel
+#    created_at: '2013-08-05 13:17:03'
+#    updated_at: '2013-08-05 13:17:13'
+#Registration:
+#  Registration_1:
+#    name: fix
+#    domain: fix
+#    email: damekjan74@gmail.com
+#    checked: false
+#    created_at: '2013-08-05 13:51:27'
+#    updated_at: '2013-08-05 13:51:27'
+#  Registration_2:
+#    name: se
+#    domain: se
+#    email: damekjan74@gmail.com
+#    checked: false
+#    created_at: '2013-08-05 14:01:15'
+#    updated_at: '2013-08-05 14:01:15'
+#  Registration_3:
+#    name: 'damek s.r.o.'
+#    domain: damek
+#    email: damek@damek.cz
+#    checked: false
+#    created_at: '2013-08-05 14:23:13'
+#    updated_at: '2013-08-05 14:23:13'
+#  Registration_4:
+#    name: test
+#    domain: test
+#    email: damekjan74@gmail.com
+#    checked: false
+#    created_at: '2013-08-05 14:56:46'
+#    updated_at: '2013-08-05 14:56:46'
+#  Registration_5:
+#    name: damek
+#    domain: damek1
+#    email: damekjan74@gmail.com
+#    checked: false
+#    created_at: '2013-08-05 15:19:25'
+#    updated_at: '2013-08-05 15:19:25'
+#  Registration_6:
+#    name: testicek
+#    domain: testicek
+#    email: damekjan74@gmail.com
+#    checked: false
+#    created_at: '2013-08-05 15:45:27'
+#    updated_at: '2013-08-05 15:45:27'
+#  Registration_7:
+#    name: iqpegasik
+#    domain: iq
+#    email: damekjan74@gmail.com
+#    checked: false
+#    created_at: '2013-08-05 17:06:52'
+#    updated_at: '2013-08-05 17:06:52'
+#Reserved:
+#  Reserved_1:
+#    word: iqpegas
+#    created_at: '2013-08-05 13:16:44'
+#    updated_at: '2013-08-05 13:16:44'
+#EmailTexts:
+#  EmailTexts_1:
+#    type_of_mail: registrace
+#    created_at: '2013-08-05 13:18:16'
+#    updated_at: '2013-08-05 13:18:16'
+#  EmailTexts_2:
+#    type_of_mail: potvrzeni
+#    created_at: '2013-08-05 13:19:10'
+#    updated_at: '2013-08-05 13:19:10'
+#Registration_check:
+#  Registration_check_1:
+#    Registration: Registration_1
+#    hesh: 5156e797d89e708efff593e49015ba3b
+#    in_process: true
+#    created_at: '2013-08-05 13:51:27'
+#    updated_at: '2013-08-05 13:51:50'
+#  Registration_check_2:
+#    Registration: Registration_2
+#    hesh: 1d0d083981d735ef8f662a8fafce84bd
+#    in_process: true
+#    created_at: '2013-08-05 14:01:15'
+#    updated_at: '2013-08-05 14:02:35'
+#  Registration_check_3:
+#    Registration: Registration_3
+#    hesh: f82e04d6970a9202a92b4fd1a68b8636
+#    in_process: true
+#    created_at: '2013-08-05 14:23:13'
+#    updated_at: '2013-08-05 14:23:28'
+#  Registration_check_4:
+#    Registration: Registration_4
+#    hesh: bb388265757f99aef09d021fbe81eff9
+#    in_process: true
+#    created_at: '2013-08-05 14:56:46'
+#    updated_at: '2013-08-05 14:57:19'
+#  Registration_check_5:
+#    Registration: Registration_5
+#    hesh: 52860832b301c8b20dd57b17b63f8e40
+#    in_process: true
+#    created_at: '2013-08-05 15:19:26'
+#    updated_at: '2013-08-05 15:21:26'
+#  Registration_check_6:
+#    Registration: Registration_6
+#    hesh: 4f10601dbd7e0069285f11c93a6598ab
+#    in_process: true
+#    created_at: '2013-08-05 15:45:27'
+#    updated_at: '2013-08-05 15:45:40'
+#  Registration_check_7:
+#    Registration: Registration_7
+#    hesh: 214d7feda9fd2d4b154b8fd60dad6578
+#    in_process: true
+#    created_at: '2013-08-05 17:06:52'
+#    updated_at: '2013-08-05 17:08:18'
+#Texty:
+#  Texty_6:
+#    typ: 'hashin proccess'
+#  Texty_9:
+#    typ: LinkNaNovyMain
+#  Texty_8:
+#    typ: MailJizOdeslan
+#  Texty_3:
+#    typ: naMailBylOdeslanNovyHash
+#  Texty_2:
+#    typ: 'neni hash'
+#  Texty_7:
+#    typ: NeniTextMailu
+#  Texty_4:
+#    typ: novylink
+#  Texty_1:
+#    typ: 'potvrzeni mailu'
+#  Texty_5:
+#    typ: 'Zaslat novy hash na email'
+#EmailTextsTranslation:
+#  EmailTextsTranslation_1_cs:
+#    EmailTexts: EmailTexts_1
+#    body: "<p>Registracni email</p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"@@link\">link pro aktivaci</a></p>\r\n<p>&nbsp;</p>\r\n<p>IQPegas</p>"
+#    subject: Registrace
+#    lang: cs
+#  EmailTextsTranslation_1_de:
+#    EmailTexts: EmailTexts_1
+#    body: "<p>Registracni email</p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"@@link\">link pro aktivaci</a></p>\r\n<p>&nbsp;</p>\r\n<p>IQPegas</p>"
+#    subject: Reg
+#    lang: de
+#  EmailTextsTranslation_1_en:
+#    EmailTexts: EmailTexts_1
+#    body: "<p>Registracni email</p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"@@link\">link pro aktivaci</a></p>\r\n<p>&nbsp;</p>\r\n<p>IQPegas</p>"
+#    subject: Registration
+#    lang: en
+#  EmailTextsTranslation_1_sk:
+#    EmailTexts: EmailTexts_1
+#    body: "<p>Registracni email</p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"@@link\">link pro aktivaci</a></p>\r\n<p>&nbsp;</p>\r\n<p>IQPegas</p>"
+#    subject: Registracia
+#    lang: sk
+#  EmailTextsTranslation_2_cs:
+#    EmailTexts: EmailTexts_2
+#    body: "<p>Potrvzeni zalozeni IQPEgas</p>\r\n<p>&nbsp;</p>\r\n<p>heslo @@heslo</p>"
+#    subject: 'Dokonceni registrace'
+#    lang: cs
+#  EmailTextsTranslation_2_de:
+#    EmailTexts: EmailTexts_2
+#    body: "<p>Potrvzeni zalozeni IQPEgas</p>\r\n<p>&nbsp;</p>\r\n<p>heslo @@heslo</p>"
+#    subject: 'Dokonceni registrace'
+#    lang: de
+#  EmailTextsTranslation_2_en:
+#    EmailTexts: EmailTexts_2
+#    body: "<p>Potrvzeni zalozeni IQPEgas</p>\r\n<p>&nbsp;</p>\r\n<p>heslo @@heslo</p>"
+#    subject: 'Dokonceni registrace'
+#    lang: en
+#  EmailTextsTranslation_2_sk:
+#    EmailTexts: EmailTexts_2
+#    body: "<p>Potrvzeni zalozeni IQPEgas</p>\r\n<p>&nbsp;</p>\r\n<p>heslo @@heslo</p>"
+#    subject: 'Dokonceni registrace'
+#    lang: sk
+#TextyTranslation:
+#  TextyTranslation_1_cs:
+#    Texty: Texty_1
+#    text: 'Potvrzovaci email'
+#    lang: cs
+#  TextyTranslation_1_de:
+#    Texty: Texty_1
+#    text: 'Potvrzovaci email'
+#    lang: de
+#  TextyTranslation_1_en:
+#    Texty: Texty_1
+#    text: 'Potvrzovaci email'
+#    lang: en
+#  TextyTranslation_1_sk:
+#    Texty: Texty_1
+#    text: 'Potvrzovaci email'
+#    lang: sk
+#  TextyTranslation_2_cs:
+#    Texty: Texty_2
+#    text: "Tento link jiz neni platny.\r\n\r\nBud vyprsela casova platnost linku nebo jiz registrace byla dokoncena\r\n\r\nIQPegas"
+#    lang: cs
+#  TextyTranslation_2_de:
+#    Texty: Texty_2
+#    text: "Tento link jiz neni platny.\r\n\r\nBud vyprsela casova platnost linku nebo jiz registrace byla dokoncena\r\n\r\nIQPegas"
+#    lang: de
+#  TextyTranslation_2_en:
+#    Texty: Texty_2
+#    text: "Tento link jiz neni platny.\r\n\r\nBud vyprsela casova platnost linku nebo jiz registrace byla dokoncena\r\n\r\nIQPegas"
+#    lang: en
+#  TextyTranslation_2_sk:
+#    Texty: Texty_2
+#    text: "Tento link jiz neni platny.\r\n\r\nBud vyprsela casova platnost linku nebo jiz registrace byla dokoncena\r\n\r\nIQPegas"
+#    lang: sk
+#  TextyTranslation_3_cs:
+#    Texty: Texty_3
+#    text: 'Na Vami zadany email v prvotni registraci byl odelsany novy potvrzovani email.'
+#    lang: cs
+#  TextyTranslation_3_de:
+#    Texty: Texty_3
+#    text: 'Na Vami zadany email v prvotni registraci byl odelsany novy potvrzovani email.'
+#    lang: de
+#  TextyTranslation_3_en:
+#    Texty: Texty_3
+#    text: 'Na Vami zadany email v prvotni registraci byl odelsany novy potvrzovani email.'
+#    lang: en
+#  TextyTranslation_3_sk:
+#    Texty: Texty_3
+#    text: 'Na Vami zadany email v prvotni registraci byl odelsany novy potvrzovani email.'
+#    lang: sk
+#  TextyTranslation_4_cs:
+#    Texty: Texty_4
+#    text: 'Novy potvrzovaci email'
+#    lang: cs
+#  TextyTranslation_4_de:
+#    Texty: Texty_4
+#    text: 'Novy potvrzovaci email'
+#    lang: de
+#  TextyTranslation_4_en:
+#    Texty: Texty_4
+#    text: 'Novy potvrzovaci email'
+#    lang: en
+#  TextyTranslation_4_sk:
+#    Texty: Texty_4
+#    text: 'Novy potvrzovaci email'
+#    lang: sk
+#  TextyTranslation_5_cs:
+#    Texty: Texty_5
+#    text: "REgistrace pro tento hash jiz byla zahajena, ale nebyla dokoncena. Proto si muzete nechat zaslat novy autorizacni email pro dokonceni registrace.\r\n\r\n<a href=\"@@link\">Zaslat novy autoricacni email</a>"
+#    lang: cs
+#  TextyTranslation_5_de:
+#    Texty: Texty_5
+#    text: "REgistrace pro tento hash jiz byla zahajena, ale nebyla dokoncena. Proto si muzete nechat zaslat novy autorizacni email pro dokonceni registrace.\r\n\r\n<a href=\"@@link\">Zaslat novy autoricacni email</a>"
+#    lang: de
+#  TextyTranslation_5_en:
+#    Texty: Texty_5
+#    text: "REgistrace pro tento hash jiz byla zahajena, ale nebyla dokoncena. Proto si muzete nechat zaslat novy autorizacni email pro dokonceni registrace.\r\n\r\n<a href=\"@@link\">Zaslat novy autoricacni email</a>"
+#    lang: en
+#  TextyTranslation_5_sk:
+#    Texty: Texty_5
+#    text: "REgistrace pro tento hash jiz byla zahajena, ale nebyla dokoncena. Proto si muzete nechat zaslat novy autorizacni email pro dokonceni registrace.\r\n\r\n<a href=\"@@link\">Zaslat novy autoricacni email</a>"
+#    lang: sk
+#  TextyTranslation_6_cs:
+#    Texty: Texty_6
+#    text: 'Na uvedeny email jiz byla zahajena registrace. Prosim skontrolujte zda nemate nekde v prohlizeci otevrene okno s nedokoncenou registraci.'
+#    lang: cs
+#  TextyTranslation_6_de:
+#    Texty: Texty_6
+#    text: 'Na uvedeny email jiz byla zahajena registrace. Prosim skontrolujte zda nemate nekde v prohlizeci otevrene okno s nedokoncenou registraci.'
+#    lang: de
+#  TextyTranslation_6_en:
+#    Texty: Texty_6
+#    text: 'Na uvedeny email jiz byla zahajena registrace. Prosim skontrolujte zda nemate nekde v prohlizeci otevrene okno s nedokoncenou registraci.'
+#    lang: en
+#  TextyTranslation_6_sk:
+#    Texty: Texty_6
+#    text: 'Na uvedeny email jiz byla zahajena registrace. Prosim skontrolujte zda nemate nekde v prohlizeci otevrene okno s nedokoncenou registraci.'
+#    lang: sk
+#  TextyTranslation_7_cs:
+#    Texty: Texty_7
+#    text: 'Neni uveden text registracniho emailu. Toto je chyba spravce serveru. Nebo chyba serveru.'
+#    lang: cs
+#  TextyTranslation_7_de:
+#    Texty: Texty_7
+#    text: 'Neni uveden text registracniho emailu. Toto je chyba spravce serveru. Nebo chyba serveru.'
+#    lang: de
+#  TextyTranslation_7_en:
+#    Texty: Texty_7
+#    text: 'Neni uveden text registracniho emailu. Toto je chyba spravce serveru. Nebo chyba serveru.'
+#    lang: en
+#  TextyTranslation_7_sk:
+#    Texty: Texty_7
+#    text: 'Neni uveden text registracniho emailu. Toto je chyba spravce serveru.  Nebo chyba serveru.'
+#    lang: sk
+#  TextyTranslation_8_cs:
+#    Texty: Texty_8
+#    text: 'Mail na Vasi registraci jiz byl odeslan'
+#    lang: cs
+#  TextyTranslation_8_de:
+#    Texty: Texty_8
+#    text: 'Dobry den, mame zajem o prohlidku nemovitosti.'
+#    lang: de
+#  TextyTranslation_8_en:
+#    Texty: Texty_8
+#    text: 'Dobry den, mame zajem o prohlidku nemovitosti.'
+#    lang: en
+#  TextyTranslation_8_sk:
+#    Texty: Texty_8
+#    text: 'Dobry den, mame zajem o prohlidku nemovitosti.'
+#    lang: sk
+#  TextyTranslation_9_cs:
+#    Texty: Texty_9
+#    text: "Bud ste provedli obnoveni stranky po odeslani prvotni registrace, nebo jste otevreli stranku z historie prohlizece.\r\n\r\nNa Vami zadany email, jiz byl odeslan mail s aktivacnim linkem. Pokud ale na Vas email registracni email nedorazil, pouzijte link pod timto texte."
+#    lang: cs
+#  TextyTranslation_9_de:
+#    Texty: Texty_9
+#    text: "Bud ste provedli obnoveni stranky po odeslani prvotni registrace, nebo jste otevreli stranku z historie prohlizece.\r\n\r\nNa Vami zadany email, jiz byl odeslan mail s aktivacnim linkem. Pokud ale na Vas email registracni email nedorazil, pouzijte link pod timto texte."
+#    lang: de
+#  TextyTranslation_9_en:
+#    Texty: Texty_9
+#    text: "Bud ste provedli obnoveni stranky po odeslani prvotni registrace, nebo jste otevreli stranku z historie prohlizece.\r\n\r\nNa Vami zadany email, jiz byl odeslan mail s aktivacnim linkem. Pokud ale na Vas email registracni email nedorazil, pouzijte link pod timto texte."
+#    lang: en
+#  TextyTranslation_9_sk:
+#    Texty: Texty_9
+#    text: "Bud ste provedli obnoveni stranky po odeslani prvotni registrace, nebo jste otevreli stranku z historie prohlizece.\r\n\r\nNa Vami zadany email, jiz byl odeslan mail s aktivacnim linkem. Pokud ale na Vas email registracni email nedorazil, pouzijte link pod timto texte."
+#    lang: sk
+    

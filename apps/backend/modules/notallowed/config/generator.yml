@@ -1,0 +1,28 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    i18n_catalogue:        admin
+    model_class:           Notallowed
+    theme:                 jroller
+    extra:                 [show, print, export]
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          notallowed
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        word: 
+          is_real: true 
+          label: Slovo
+      list:   
+        title: Seznam nedovolenych slov
+        display: [=word]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

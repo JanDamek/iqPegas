@@ -1,0 +1,1788 @@
+#Pohyby:
+#  Pohyby_2001:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: '-32000.00'
+#    datum: '2014-04-14'
+#    cas: '22:10'
+#    meny: CZK
+#    na_ucet: '5353802028/5500'
+#    zprava_pro_prijemce: 'Kateřina Damková'
+#    zprava_pro_mne: spoření
+#    prevest_dne: '2014-04-14'
+#    typ: Převod   
+#    kod_transakce: 45832061
+#  Pohyby_2002:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 17999.99
+#    datum: '2014-04-14'
+#    cas: '21:22'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Nedodržení termínu bankou
+#    zprava_pro_mne: Úrok za pozdní platbu (3 000 000.00*0.01%*1 den)
+#    prevest_dne: '2014-04-14'
+#    typ: Kompenzace    
+#    kod_transakce: 12132917619
+#  Pohyby_2003:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 17999.99
+#    datum: '2014-04-14'
+#    cas: '20:22'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Nedodržení termínu bankou
+#    zprava_pro_mne: Úrok za pozdní platbu (3 000 000.00*0.01%*1 den)
+#    prevest_dne: '2014-04-14'
+#    typ: Kompenzace    
+#    kod_transakce: 12132917619
+#  Pohyby_2004:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 900.00
+#    datum: '2014-04-14'
+#    cas: '20:13'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Nedodržení termínu bankou
+#    zprava_pro_mne: Úrok za pozdní platbu (150 000.00*0.01%*1 den)
+#    prevest_dne: '2014-04-14'
+#    typ: Kompenzace    
+#    kod_transakce: 22132917619
+#  Pohyby_2005:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 900.00
+#    datum: '2014-04-14'
+#    cas: '20:13'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Nedodržení termínu bankou
+#    zprava_pro_mne: Úrok za pozdní platbu (150 000.00*0.01%*1 den)
+#    prevest_dne: '2014-04-14'
+#    typ: Kompenzace    
+#    kod_transakce: 22132917619
+#  Pohyby_2006:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -60000.00
+#    datum: '2014-04-14'
+#    cas: '08:25'
+#    meny: CZK
+#    na_ucet: 5353802028/5500
+#    zprava_pro_prijemce: Kateřina Damková
+#    zprava_pro_mne: spoření
+#    prevest_dne: '2014-04-14'
+#    typ: Převod    
+#    kod_transakce: 45832061
+#  Pohyby_2007:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -483.00
+#    datum: '2014-04-14'
+#    cas: '02:58'
+#    meny: CZK
+#    na_ucet: 7034-20'00901369/0800
+#    variabilni_symbol: 1412
+#    zprava_pro_mne: jídlo Patrik 2.B
+#    prevest_dne: '2014-04-14'
+#    typ: Trvalý převod    
+#    kod_transakce: 2138427843437
+#  Pohyby_2008:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 9090.00
+#    datum: '2014-04-14'
+#    cas: '01:55'
+#    meny: CZK
+#    na_ucet: 111263671/0300
+#    variabilni_symbol: 9
+#    zprava_pro_prijemce: ASSECO SOLUTIONS. A.
+#    konstantni_symbol: 138
+#    prevest_dne: '2014-04-14'
+#    typ: Příchozí platba    
+#    kod_transakce: 2137569284
+#  Pohyby_2009:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 34010.00
+#    datum: '2014-04-14'
+#    cas: '01:53'
+#    meny: CZK
+#    na_ucet: 111263671/0300
+#    variabilni_symbol: 9
+#    zprava_pro_prijemce: ASSECO SOLUTIONS. A.
+#    konstantni_symbol: 138
+#    prevest_dne: '2014-04-14'
+#    typ: Příchozí platba   
+#    kod_transakce: 2137569284
+#  Pohyby_20010:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 17999.99
+#    datum: '2014-04-13'
+#    cas: '20:22'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Nedodržení termínu bankou
+#    zprava_pro_mne: Úrok za pozdní platbu (3 000 000.00*0.01%*1 den)
+#    prevest_dne: '2014-04-13'
+#    typ: Kompenzace   
+#    kod_transakce: 12132917619
+#  Pohyby_20011:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 1000.00
+#    datum: '2014-04-13'
+#    cas: '09:35'
+#    meny: CZK
+#    na_ucet: 8323525/5500
+#    zprava_pro_prijemce: Částečná kompenzace provozu kartoveho centra
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-13'
+#    typ: Kompenzace   
+#    kod_transakce: 7415832160
+#  Pohyby_20012:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 900.00
+#    datum: '2014-04-12'
+#    cas: '23:53'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Nedodržení termínu bankou
+#    zprava_pro_mne: Úrok za pozdní platbu (150 000.00*0.01%*1 den)
+#    prevest_dne: '2014-04-12'
+#    typ: Kompenzace   
+#    kod_transakce: 22132917619
+#  Pohyby_20013:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -19000.00
+#    datum: '2014-04-01'
+#    cas: '07:31'
+#    meny: CZK
+#    na_ucet: 5353802028/5500
+#    zprava_pro_prijemce: Kateřina Damková
+#    zprava_pro_mne: spoření
+#    prevest_dne: '2014-04-01'
+#    typ: Převod   
+#    kod_transakce: 45832061
+#  Pohyby_20014:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 17999.99
+#    datum: '2014-04-01'
+#    cas: '07:22'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Nedodržení termínu bankou
+#    zprava_pro_mne: Úrok za pozdní platbu (3 000 000.00*0.01%*1 den)
+#    prevest_dne: '2014-04-01'
+#    typ: Kompenzace  
+#    kod_transakce: 12132917619
+#  Pohyby_20015:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 900.00
+#    datum: '2014-04-01'
+#    cas: '07:23'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Nedodržení termínu bankou
+#    zprava_pro_mne: Úrok za pozdní platbu (150 000.00*0.01%*1 den)
+#    prevest_dne: '2014-04-01'
+#    typ: Kompenzace  
+#    kod_transakce: 22132917619
+#  Pohyby_20016:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1000.00
+#    datum: '2014-04-10'
+#    cas: '09:29'
+#    meny: CZK
+#    na_ucet: 8323453/5500
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: CS. ALBERT. PRAHA10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-04'
+#    typ: Výběr z bankomatu  
+#    kod_transakce: 140138
+#  Pohyby_20017:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -600.00
+#    datum: '2014-04-10'
+#    cas: '09:28'
+#    meny: CZK
+#    na_ucet: 8323453/5500
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: RB Hlavni nadrazi II. PRAHA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-02'
+#    typ: Výběr z bankomatu  
+#    kod_transakce: 214388
+#  Pohyby_20018:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -600.00
+#    datum: '2014-04-10'
+#    cas: '09:27'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: GEMB RABAKOVSKA. PRAHA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-06'
+#    typ: Výběr z bankomatu  
+#    kod_transakce: 3314388
+#  Pohyby_20019:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -500.00
+#    datum: '2014-04-10'
+#    cas: '09:27'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: ANTALA STASKA. PRAHA 4. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-09'
+#    typ: Výběr z bankomatu   
+#    kod_transakce: 2114388
+#  Pohyby_20020:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -143.00
+#    datum: '2014-04-10'
+#    cas: '09:21'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: STUDENT AGENCY. K.S./ ZL. BRNO. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-07'
+#    typ: Platba kartou    
+#    kod_transakce: 74514038
+#  Pohyby_20021:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -271.90
+#    datum: '2014-04-10'
+#    cas: '09:12'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: ALBERT 0540. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-08'
+#    typ: Platba kartou   
+#    kod_transakce: 174514038
+#  Pohyby_20022:
+#    typ_uctu: bu
+#    mena: CZK
+#    typ: Převod
+#    castku: -462.70
+#    datum: '2014-04-10'
+#    cas: '09:11'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: ALBERT 0540. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-05'
+#    typ: Platba kartou   
+#    kod_transakce: 274514038
+#  Pohyby_20023:
+#    typ_uctu: bu
+#    mena: CZK
+#    typ: Převod
+#    castku: -240.00
+#    datum: '2014-04-10'
+#    cas: '09:10'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408359XXXXXX6465'
+#    zprava_pro_mne: CENTRUM HOLDING S.R.O., PRAHA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-03'
+#    typ: Platba kartou   
+#    kod_transakce: 374514038
+#  Pohyby_20024:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -142.10
+#    datum: '2014-04-10'
+#    cas: '09:07'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: LIDL 125.PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-07'
+#    typ: Platba kartou   
+#    kod_transakce: 214038
+#  Pohyby_20025:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1205.70
+#    datum: '2014-04-10'
+#    cas: '09:06'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: TESCO PRAHA SKALKA.PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-06'
+#    typ: Platba kartou   
+#    kod_transakce: 314038
+#  Pohyby_20026:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1342.40
+#    datum: '2014-04-10'
+#    cas: '09:06'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: TESCO PRAHA SKALKA.PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-02'
+#    typ: Platba kartou   
+#    kod_transakce: 214038
+#  Pohyby_20027:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -985.70
+#    datum: '2014-04-10'
+#    cas: '09:05'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: LIDL 125.PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-02'
+#    typ: Platba kartou   
+#    kod_transakce: 5514038
+#  Pohyby_20028:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -502.60
+#    datum: '2014-04-10'
+#    cas: '09:05'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: LIDL 125.PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-04-01'
+#    typ: Platba kartou   
+#    kod_transakce: 1214038
+#  Pohyby_20029:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -968.00
+#    datum: '2014-04-10'
+#    cas: '09:04'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: Pizzeria Milano. PRAHA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-31'
+#    typ: Platba kartou   
+#    kod_transakce: 2124038
+#  Pohyby_20030:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -422.00
+#    datum: '2014-04-10'
+#    cas: '09:03'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: MOTOREST ROHLENKA. TVAROZNA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-31'
+#    typ: Platba kartou   
+#    kod_transakce: 3164038
+#  Pohyby_20031:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1230.00
+#    datum: '2014-04-10'
+#    cas: '09:02'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: CERPACI ST. 3103. FRYDEK-MISTEK. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-31'
+#    typ: Platba kartou  
+#    kod_transakce: 21242038
+#  Pohyby_20032:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1657.40
+#    datum: '2014-04-10'
+#    cas: '09:01'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: ALBERT HM 0352. FRYDEK-MISTEK. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-29'
+#    typ: Platba kartou   
+#    kod_transakce: 3143038
+#  Pohyby_20033:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -254.50
+#    datum: '2014-04-10'
+#    cas: '08:56'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: TESCO FRYDEK MISTEK PRIBO. FRYDEK-MISTEK. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-29'
+#    typ: Platba kartou   
+#    kod_transakce: 31245038
+#  Pohyby_20034:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1683.60
+#    datum: '2014-04-10'
+#    cas: '08:56'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: TESCO FRYDEK MISTEK PRIBO. FRYDEK-MISTEK. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-29'
+#    typ: Platba kartou  
+#    kod_transakce: 91949038
+#  Pohyby_20035:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -3016.60
+#    datum: '2014-04-10'
+#    cas: '08:55'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: TESCO FRYDEK MISTEK PRIBO. FRYDEK-MISTEK. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-28'
+#    typ: Platba kartou 
+#    kod_transakce: 21849038
+#  Pohyby_20036:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -410.00
+#    datum: '2014-04-10'
+#    cas: '08:53'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: MOTOREST ROHLENKA. TVAROZNA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-28'
+#    typ: Platba kartou  
+#    kod_transakce: 213460538
+#  Pohyby_20037:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1462.80
+#    datum: '2014-04-10'
+#    cas: '08:52'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: ONO - PRAHA 10. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-27'
+#    typ: Platba kartou  
+#    kod_transakce: 2229223058
+#  Pohyby_20038:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 1.00
+#    datum: '2014-04-10'
+#    cas: '08:16'
+#    meny: CZK
+#    na_ucet: 670100-22'07239392/6210
+#    variabilni_symbol: 1
+#    zprava_pro_prijemce: JAN DAMEK
+#    zprava_pro_mne: 
+#    prevest_dne: '2014-04-10'
+#    typ: Příchozí platba  
+#    kod_transakce: 32132917619
+#  Pohyby_20039:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -18000.00
+#    datum: '2014-04-10'
+#    cas: '08:02'
+#    meny: CZK
+#    na_ucet: 5353802028/5500
+#    zprava_pro_prijemce: Kateřina Damková
+#    zprava_pro_mne: spoření
+#    prevest_dne: '2014-04-10'
+#    typ: Převod  
+#    kod_transakce: 45832061
+#  Pohyby_20040:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 17999.99
+#    datum: '2014-04-10'
+#    cas: '06:41'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Nedodržení termínu bankou
+#    zprava_pro_mne: Úrok za pozdní platbu (3 000 000.00*0.01%*1 den)
+#    prevest_dne: '2014-04-10'
+#    typ: Kompenzace  
+#    kod_transakce: 12132917619
+#  Pohyby_20041:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 900.00
+#    datum: '2014-04-10'
+#    cas: '02:33'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Nedodržení termínu bankou
+#    zprava_pro_mne: Úrok za pozdní platbu (150 000.00*0.01%*1 den)
+#    prevest_dne: '2014-04-10'
+#    typ: Kompenzace  
+#    kod_transakce: 22132917619
+#  Pohyby_20042:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -3000000.00
+#    datum: '2014-04-09'
+#    cas: '15:26'
+#    meny: CZK
+#    na_ucet: 670100-22'07239392/6210
+#    variabilni_symbol: 1
+#    prevest_dne: '2014-04-09'
+#    typ: Převod   
+#    kod_transakce: 32132917619
+#  Pohyby_20043:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 3000000.00
+#    datum: '2014-04-09'
+#    cas: '15:05'
+#    meny: CZK
+#    na_ucet: 5353802028/5500
+#    variabilni_symbol: 1
+#    zprava_pro_prijemce: Kateřina Damková
+#    prevest_dne: '2014-04-09'
+#    typ: Příchozí platba   
+#    kod_transakce: 42132917619
+#  Pohyby_20044:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 900.00
+#    datum: '2014-04-09'
+#    cas: '00:12'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Nedodržení termínu bankou
+#    zprava_pro_mne: Úrok za pozdní platbu (150 000.00*0.01%*1 den)
+#    prevest_dne: '2014-04-09'
+#    typ: Kompenzace   
+#    kod_transakce: 52132917619
+#  Pohyby_20045:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -136.30
+#    datum: '2014-04-08'
+#    cas: '05:29'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408359XXXXXX6465'
+#    zprava_pro_mne: ALBERT HM 0352. FRYDEK-MISTEK. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-31'
+#    typ: Platba kartou  
+#    kod_transakce: 51545038
+#  Pohyby_20046:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 4500.00
+#    datum: '2014-04-08'
+#    cas: '04:45'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Nedodržení termínu bankou
+#    zprava_pro_mne: Úrok za pozdní platbu (150 000.00*0.01%*5 dní)
+#    prevest_dne: '2014-04-08'
+#    typ: Kompenzace    
+#    kod_transakce: 62132917619
+#  Pohyby_20047:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -150000.00
+#    datum: '2014-04-04'
+#    cas: '11:45'
+#    meny: CZK
+#    na_ucet: 150883726/0600
+#    variabilni_symbol: 1
+#    prevest_dne: '2014-04-04'
+#    typ: Převod   
+#    kod_transakce: 532917619
+#  Pohyby_20048:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 150000.00
+#    datum: '2014-04-04'
+#    cas: '11:12'
+#    meny: CZK
+#    na_ucet: 15083726/0600
+#    variabilni_symbol: 1
+#    zprava_pro_prijemce: Neznámé číslo účtu
+#    prevest_dne: '2014-04-04'
+#    typ: Převod   
+#    kod_transakce: 72917619
+#  Pohyby_20049:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -10000.00
+#    datum: '2014-04-04'
+#    cas: '09:20'
+#    meny: CZK
+#    na_ucet: 5353802028/5500
+#    zprava_pro_prijemce: Kateřina Damková
+#    zprava_pro_mne: spoření
+#    prevest_dne: '2014-04-04'
+#    typ: Převod   
+#    kod_transakce: 84432061
+#  Pohyby_20050:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 10000.00
+#    datum: '2014-04-04'
+#    cas: '08:42'
+#    meny: CZK
+#    na_ucet: 5353802028/5500
+#    variabilni_symbol: 1
+#    zprava_pro_prijemce: Kateřina Damková
+#    prevest_dne: '2014-04-04'
+#    typ: Příchozí platba  
+#    kod_transakce: 44132917619
+#  Pohyby_20051:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 10000.00
+#    datum: '2014-04-04'
+#    cas: '08:36'
+#    meny: CZK
+#    na_ucet: 5353802028/5500
+#    variabilni_symbol: 1
+#    zprava_pro_prijemce: Kateřina Damková
+#    prevest_dne: '2014-04-04'
+#    typ: Příchozí platba  
+#    kod_transakce: 522917619
+#  Pohyby_20052:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -150000.00
+#    datum: '2014-04-01'
+#    cas: '09:12'
+#    meny: CZK
+#    na_ucet: 15083726/0600
+#    variabilni_symbol: 1
+#    prevest_dne: '2014-04-01'
+#    typ: Převod    
+#    kod_transakce: 2441329149
+#  Pohyby_20053:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 150000.00
+#    datum: '2014-04-01'
+#    cas: '08:52'
+#    meny: CZK
+#    na_ucet: 5353802028/5500
+#    variabilni_symbol: 1
+#    zprava_pro_prijemce: Kateřina Damková
+#    prevest_dne: '2014-04-01'
+#    typ: Příchozí platba 
+#    kod_transakce: 229619
+#  Pohyby_20054:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 1542.00
+#    datum: '2014-03-31'
+#    cas: '07:41'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Kompenzace - úrok
+#    konstantni_symbol: 898
+#    prevest_dne: '2014-03-31'
+#    typ: Správa účtu  
+#    kod_transakce: 4274514038
+#  Pohyby_20055:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 15.00
+#    datum: '2014-03-31'
+#    cas: '07:41'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Kompenzace
+#    konstantni_symbol: 898
+#    prevest_dne: '2014-03-31'
+#    typ: Správa účtu   
+#    kod_transakce: 7854514038
+#  Pohyby_20056:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 15.00
+#    datum: '2014-03-31'
+#    cas: '07:41'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Kompenzace
+#    konstantni_symbol: 898
+#    prevest_dne: '2014-03-31'
+#    typ: Správa účtu   
+#    kod_transakce: 741038
+#  Pohyby_20057:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 129.00
+#    datum: '2014-03-31'
+#    cas: '07:41'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    zprava_pro_prijemce: Kompenzace
+#    konstantni_symbol: 898
+#    prevest_dne: '2014-03-31'
+#    typ: Správa účtu 
+#    kod_transakce: 124514038
+#  Pohyby_20058:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -129.00
+#    datum: '2014-03-31'
+#    cas: '07:41'
+#    meny: CZK
+#    na_ucet: 8058332223/5500
+#    konstantni_symbol: 898
+#    prevest_dne: '2014-03-31'
+#    typ: Správa účtu  
+#    kod_transakce: 4854514038
+#  Pohyby_20059:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -15.00
+#    datum: '2014-03-31'
+#    cas: '07:41'
+#    meny: CZK
+#    na_ucet: 8323453/5500
+#    zprava_pro_prijemce: 'Pojištění ke kartě: Základ'
+#    konstantni_symbol: 898
+#    prevest_dne: '2014-03-31'
+#    typ: Poplatek za vedení karty  
+#    kod_transakce: 124514038
+#  Pohyby_20060:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: '-15.00'
+#    datum: '2014-03-31'
+#    cas: '07:41'
+#    meny: CZK
+#    na_ucet: 8323453/5500
+#    zprava_pro_prijemce: 'Pojištění ke kartě: Základ'
+#    konstantni_symbol: 898
+#    prevest_dne: '2014-03-31'
+#    typ: Poplatek za vedení karty  
+#    kod_transakce: 721454038
+#  Pohyby_20061:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -350.00
+#    datum: '2014-03-30'
+#    cas: '06:42'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408359XXXXXX6465'
+#    zprava_pro_mne: CENTRUM HOLDING S.R.O.. PRAHA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-27'
+#    typ: Platba kartou   
+#    kod_transakce: 94514038
+#  Pohyby_20062:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -350.00
+#    datum: '2014-03-30'
+#    cas: '06:41'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408359XXXXXX6465'
+#    zprava_pro_mne: CENTRUM HOLDING S.R.O.. PRAHA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-27'
+#    typ: Platba kartou   
+#    kod_transakce: 84514038
+#  Pohyby_20063:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -901.20
+#    datum: '2014-03-29'
+#    cas: '22:41'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: TESCO PRAHA ZLICIN. PRAHA 5. CZE1178
+#    prevest_dne: '2014-03-27'
+#    typ: Platba kartou  
+#    kod_transakce: 14514038
+#  Pohyby_20064:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 5000.00
+#    datum: '2014-03-29'
+#    cas: '10:36'
+#    meny: CZK
+#    na_ucet: 5353802028/5500
+#    variabilni_symbol: 1
+#    zprava_pro_prijemce: Kateřina Damková
+#    prevest_dne: '2014-03-29'
+#    typ: Příchozí platba 
+#    kod_transakce: 213294517619
+#  Pohyby_20065:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -13000.00
+#    datum: '2014-03-27'
+#    cas: '10:43'
+#    meny: CZK
+#    na_ucet: 670100-22'00143240/6200
+#    variabilni_symbol: 1
+#    zprava_pro_mne: duben '2014
+#    prevest_dne: '2014-03-27'
+#    typ: Převod   
+#    kod_transakce: 22132917619
+#  Pohyby_20066:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 10000.00
+#    datum: '2014-03-27'
+#    cas: '10:26'
+#    meny: CZK
+#    na_ucet: 5353802028/5500
+#    variabilni_symbol: 1
+#    zprava_pro_prijemce: Kateřina Damková
+#    prevest_dne: '2014-03-27'
+#    typ: Příchozí platba 
+#    kod_transakce: 32132917619
+#  Pohyby_20067:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -234.60
+#    datum: '2014-03-27'
+#    cas: '06:41'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: ALBERT 0540. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-25'
+#    typ: Platba kartou  
+#    kod_transakce: 8974514038
+#  Pohyby_20068:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 1088.00
+#    datum: '2014-03-27'
+#    cas: '05:45'
+#    meny: CZK
+#    na_ucet: 8323453/5500   
+#    zprava_pro_prijemce: 'PK: 408359XXXXXX6465, Kompenzace'
+#    zprava_pro_mne: T-MOBILE CZECH REPUBLIC A.PRAHA 4. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-26'
+#    typ: Platba kartou  
+#    kod_transakce: 5523614038
+#  Pohyby_20069:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1179.10
+#    datum: '2014-03-26'
+#    cas: '06:22'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: TESCO PRAHA SKALKA.PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-24'
+#    typ: Platba kartou  
+#    kod_transakce: 125414038
+#  Pohyby_20070:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -2213.00
+#    datum: '2014-03-26'
+#    cas: '06:21'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: Deichmann-Obuv s.r.o. 016.Praha Chodov. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-24'
+#    typ: Platba kartou  
+#    kod_transakce: 21514038
+#  Pohyby_20071:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -315.00
+#    datum: '2014-03-25'
+#    cas: '07:45'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: SBARRO.PRAHA 9. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-22'
+#    typ: Platba kartou 
+#    kod_transakce: 48514038
+#  Pohyby_20072:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -600.00
+#    datum: '2014-03-25'
+#    cas: '07:42'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: 190 00 Beranovych 667.Praha 18. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-22'
+#    typ: Výběr z bankomatu   
+#    kod_transakce: 125414038
+#  Pohyby_20073:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -2912.50
+#    datum: '2014-03-25'
+#    cas: '07:41'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: TESCO PRAHA SKALKA.PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-22'
+#    typ: Platba kartou   
+#    kod_transakce: 125414038
+#  Pohyby_20074:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 4000.00
+#    datum: '2014-03-23'
+#    cas: '23:39'
+#    meny: CZK
+#    na_ucet: 8323525/5500
+#    zprava_pro_prijemce: Částečná kompenzace
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-23'
+#    typ: Kompenzace    
+#    kod_transakce: 8832160
+#  Pohyby_20075:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -256.40
+#    datum: '2014-03-23'
+#    cas: '07:21'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: LIDL 125.PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-21'
+#    typ: Platba kartou  
+#    kod_transakce: 78514038
+#  Pohyby_20076:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -187.00
+#    datum: '2014-03-22'
+#    cas: '06:22'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: HOSTIVARSKA LEKARNA.PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-20'
+#    typ: Platba kartou  
+#    kod_transakce: 958614038
+#  Pohyby_20077:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -421.50
+#    datum: '2014-03-22'
+#    cas: '06:21'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: LIDL 125.PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-20'
+#    typ: Platba kartou  
+#    kod_transakce: 9854214038
+#  Pohyby_20078:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -413.60
+#    datum: '2014-03-21'
+#    cas: '16:41'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: ALBERT 0540. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-19'
+#    typ: Platba kartou   
+#    kod_transakce: 124814038
+#  Pohyby_20079:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -500.00
+#    datum: '2014-03-21'
+#    cas: '16:31'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: CS. ALBERT. PRAHA10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-19'
+#    typ: Výběr z bankomatu  
+#    kod_transakce: 958414038
+#  Pohyby_20080:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -85.00
+#    datum: '2014-03-21'
+#    cas: '16:25'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: MCDONALDS PRUHONICE II.CESTLICE . CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-18'
+#    typ: Platba kartou  
+#    kod_transakce: 3259814038
+#  Pohyby_20081:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -401.00
+#    datum: '2014-03-21'
+#    cas: '16:21'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: MOTOREST ROHLENKA. TVAROZNA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-18'
+#    typ: Platba kartou  
+#    kod_transakce: 1254914038
+#  Pohyby_20082:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 1000.00
+#    datum: '2014-03-20'
+#    cas: '16:33'
+#    meny: CZK
+#    na_ucet: 8323525/5500
+#    zprava_pro_prijemce: Částečná kompenzace
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-20'
+#    typ: Kompenzace  
+#    kod_transakce: 7415832160
+#  Pohyby_20083:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -113.30
+#    datum: '2014-03-20'
+#    cas: '10:29'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408359XXXXXX6465'
+#    zprava_pro_mne: ALBERT HM 0352. FRYDEK-MISTEK. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-18'
+#    typ: Platba kartou 
+#    kod_transakce: 689514038
+#  Pohyby_20084:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -811.20
+#    datum: '2014-03-20'
+#    cas: '10:25'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: TESCO CY GHS 11029.PRAHA . CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-18'
+#    typ: Platba kartou 
+#    kod_transakce: 325814038
+#  Pohyby_20085:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1162.30
+#    datum: '2014-03-20'
+#    cas: '10:22'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: CERPACi ST. 3103. FRYDEK-MISTEK. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-18'
+#    typ: Platba kartou 
+#    kod_transakce: 112414038
+#  Pohyby_20086:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -246.00
+#    datum: '2014-03-20'
+#    cas: '10:21'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408359XXXXXX6465'
+#    zprava_pro_mne: DR.MAX LEKARNA. FRYDEK-MISTEK. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: 17.03.2014
+#    typ: Platba kartou  
+#    kod_transakce: 978514038
+#  Pohyby_20087:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1088.00
+#    datum: '2014-03-20'
+#    cas: '10:05'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408359XXXXXX6465'
+#    zprava_pro_mne: T-MOBILE CZECH REPUBLIC A.PRAHA 4. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: 17.03.2014
+#    typ: Platba kartou  
+#    kod_transakce: 994614038
+#  Pohyby_20088:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1540.70
+#    datum: '2014-03-20'
+#    cas: '10:01'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: TESCO FRYDEK MISTEK PRIBO. FRYDEK-MISTEK. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: 17.03.2014
+#    typ: Platba kartou  
+#    kod_transakce: 124514038
+#  Pohyby_20089:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1000.00
+#    datum: '2014-03-19'
+#    cas: '10:00'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: GEMB PRIBORSKA 2270. FRYDEK-MISTEK. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: 17.03.2014
+#    typ: Výběr z bankomatu   
+#    kod_transakce: 975614038
+#  Pohyby_20090:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -158.00
+#    datum: '2014-03-18'
+#    cas: '16:21'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: MCDONALDS. PRAHA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-15'
+#    typ: Platba kartou  
+#    kod_transakce: 148614038
+#  Pohyby_20091:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -358.00
+#    datum: '2014-03-18'
+#    cas: '12:01'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: MOTOREST ROHLENKA. TVAROZNA. CZE
+#    prevest_dne: 1178
+#    prevest_dne: '2014-03-15'
+#    typ: Platba kartou 
+#    kod_transakce: 124814038
+#  Pohyby_20092:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -423.00
+#    datum: '2014-03-18'
+#    cas: '16:21'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: DRACIK-DUVI CZ S.R., FRYDEK-MISTEK, CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-15'
+#    typ: Platba kartou 
+#    kod_transakce: 189514038
+#  Pohyby_20093:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1387.50
+#    datum: '2014-03-18'
+#    cas: '16:21'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: TESCO FRYDEK-MISTEK PRIBO. FRYDEK-MISTEK. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-15'
+#    typ: Platba kartou  
+#    kod_transakce: 148914038
+#  Pohyby_20094:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -400.00
+#    datum: '2014-03-18'
+#    cas: '11:32'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: KB ATM ANTALA STASKA. PRAHA 4. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-14'
+#    typ: Platba kartou  
+#    kod_transakce: 478540388
+#  Pohyby_20095:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -3000.00
+#    datum: '2014-03-18'
+#    cas: '11:31'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: ANTALA STASKA. PRAHA 4. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-14'
+#    typ: Výběr z bankomatu 
+#    kod_transakce: 123614388
+#  Pohyby_20096:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1789.00
+#    datum: '2014-03-16'
+#    cas: '06:33'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: CS PRUBEZNA. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-14'
+#    typ: Platba kartou 
+#    kod_transakce: 1485842060
+#  Pohyby_20097:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -299.00
+#    datum: '2014-03-15'
+#    cas: '11:31'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408359XXXXXX6465'
+#    zprava_pro_mne: PEPA.CZ. PRAHA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-13'
+#    typ: Platba kartou 
+#    kod_transakce: 82530347
+#  Pohyby_20098:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -550.00
+#    datum: '2014-03-15'
+#    cas: '11:31'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408359XXXXXX6465'
+#    zprava_pro_mne: PEPA.CZ. PRAHA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-13'
+#    typ: Platba kartou   
+#    kod_transakce: 281454952
+#  Pohyby_20099:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -578.28
+#    datum: '2014-03-15'
+#    cas: '11:31'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: LIDL125. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-13'
+#    typ: Platba kartou  
+#    kod_transakce: 50012007
+#  Pohyby_200100:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -2000.00
+#    datum: '2014-03-15'
+#    cas: '11:31'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: CS. ALBERT. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-13'
+#    typ: Výběr z bankomatu   
+#    kod_transakce: 142150388
+#  Pohyby_200101:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -30000.00
+#    datum: '2014-03-14'
+#    cas: '11:02'
+#    meny: CZK
+#    na_ucet: 5353802028/5500
+#    zprava_pro_mne: Kateřina Damková
+#    zprava_pro_mne: spoření
+#    prevest_dne: '2014-03-14'
+#    typ: Převod  
+#    kod_transakce: 83204861
+#  Pohyby_200102:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -109.40
+#    datum: '2014-03-14'
+#    cas: '07:16'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408359XXXXXX6465'
+#    zprava_pro_mne: ALBERT 0540. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-12'
+#    typ: Platba kartou  
+#    kod_transakce: 8045841165
+#  Pohyby_200103:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -483.00
+#    datum: '2014-03-14'
+#    cas: '02:58'
+#    meny: CZK
+#    na_ucet: 7034-20'00901369/0800
+#    variabilni_symbol: 1412
+#    zprava_pro_mne: jídlo Patrik 2.B
+#    prevest_dne: '2014-03-14'
+#    typ: Trvalý převod 
+#    kod_transakce: 2138427843437
+#  Pohyby_200104:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 8500.00
+#    datum: '2014-03-13'
+#    cas: '09:00'
+#    meny: CZK
+#    na_ucet: 86-37822761/0710
+#    variabilni_symbol: 13233653
+#    zprava_pro_prijemce: ÚP-kraj.pob.Ostrava
+#    prevest_dne: '2014-03-13'
+#    typ: Příchozí platba  
+#    kod_transakce: 2134127858682
+#  Pohyby_200105:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -196.00
+#    datum: '2014-03-13'
+#    cas: '07:30'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408359XXXXXX6465'
+#    zprava_pro_mne: WWW.GOPAY.CZ. CESKE BUDEJOV. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-11'
+#    typ: Platba kartou   
+#    kod_transakce: 030975
+#  Pohyby_200106:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -251.70
+#    datum: '2014-03-13'
+#    cas: '07:30'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: LIDL125. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-11'
+#    typ: Platba kartou  
+#    kod_transakce: 175629
+#  Pohyby_200107:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 41715.00
+#    datum: '2014-03-13'
+#    cas: '03:05'
+#    meny: CZK
+#    na_ucet: 111263671/0300
+#    variabilni_symbol: 9
+#    zprava_pro_prijemce: ASSECO SOLUTIONS. A.S.
+#    konstantni_symbol: 138
+#    prevest_dne: '2014-03-13'
+#    typ: Příchozí platba   
+#    kod_transakce: 2137569284
+#  Pohyby_200108:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -63.40
+#    datum: '2014-03-12'
+#    cas: '07:21'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: LIDL125. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-01'
+#    typ: Platba kartou   
+#    kod_transakce: 975269
+#  Pohyby_200109:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -121.40
+#    datum: '2014-03-11'
+#    cas: '07:55'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: ALBERT 0540. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-08'
+#    typ: Platba kartou  
+#    kod_transakce: 366087
+#  Pohyby_2001110:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -284.00
+#    datum: '2014-03-11'
+#    cas: '07:55'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: LEO EXPRESS. PRAHA 5. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-07'
+#    typ: Platba kartou  
+#    kod_transakce: 500469
+#  Pohyby_200111:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -196.40
+#    datum: '2014-03-11'
+#    cas: '07:55'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: TESCO PRAHA NOVY SMICHOV. PRAHA 5. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-07'
+#    typ: Platba kartou  
+#    kod_transakce: 038297
+#  Pohyby_200112:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1000.00
+#    datum: '2014-03-11'
+#    cas: '07:55'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: PLZENSKA 233/8. PRAHA 5. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-07'
+#    typ: Výběr z bankomatu
+#    kod_transakce: 370192
+#  Pohyby_200113:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -274.50
+#    datum: '2014-03-11'
+#    cas: '07:55'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: LIDL125. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-09'
+#    typ: Platba kartou  
+#    kod_transakce: 753125
+#  Pohyby_200114:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -215.00
+#    datum: '2014-03-11'
+#    cas: '07:55'
+#    meny: CZK
+#    na_ucet: 8323525/5500   
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: HOTEL PRAGA 1885. PRAHA 5. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-08'
+#    typ: Platba kartou  
+#    kod_transakce: 415593
+#  Pohyby_200115:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -68.40
+#    datum: '2014-03-11'
+#    cas: '07:55'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: ALBERT 0540. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-08'
+#    typ: Platba kartou   
+#    kod_transakce: 418369
+#  Pohyby_200116:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -358.00
+#    datum: '2014-03-11'
+#    cas: '07:55'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: CINEMA CITY NOVY SMICHOV. PRAHA 5. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-07'
+#    typ: Platba kartou  
+#    kod_transakce: 522631
+#  Pohyby_200117:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -368.00
+#    datum: '2014-03-09'
+#    cas: '06:38'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: CINEMA CITY CZECH. PRAHA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-07'
+#    typ: Platba kartou  
+#    kod_transakce: 228962
+#  Pohyby_200118:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 368.00
+#    datum: '2014-03-09'
+#    cas: '06:38'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: CINEMA CITY CZECH. PRAHA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-07'
+#    typ: Příchozí platba 
+#    kod_transakce: 2134877658
+#  Pohyby_200119:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -200.00
+#    datum: '2014-03-08'
+#    cas: '07:32'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: CS. ALBERT. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-06'
+#    typ: Výběr z bankomatu  
+#    kod_transakce: 360829
+#  Pohyby_200120:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -350.20
+#    datum: '2014-03-08'
+#    cas: '07:32'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: ONO - PRAHA 10. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-05'
+#    typ: Platba kartou   
+#    kod_transakce: 293058
+#  Pohyby_200121:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -4045000.00
+#    datum: '2014-03-07'
+#    cas: '10:33'
+#    meny: CZK
+#    na_ucet: 5353802028/5500
+#    zprava_pro_prijemce: Kateřina Damková
+#    zprava_pro_mne: spoření
+#    prevest_dne: '2014-03-07'
+#    typ: Převod   
+#    kod_transakce: 832060
+#  Pohyby_200122:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -35.70
+#    datum: '2014-03-07'
+#    cas: '06:55'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: ALBERT 0540. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-05'
+#    typ: Platba kartou  
+#    kod_transakce: 031202
+#  Pohyby_200123:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -200.00
+#    datum: '2014-03-07'
+#    cas: '06:55'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: CS. ALBERT. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-05'
+#    typ: Výběr z bankomatu  
+#    kod_transakce: 736187
+#  Pohyby_200124:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 4050000.00
+#    datum: '2014-03-06'
+#    cas: '10:42'
+#    meny: CZK
+#    na_ucet: 111263671/0300
+#    variabilni_symbol: 9
+#    zprava_pro_prijemce: ASSECO SOLUTIONS. A.S.
+#    konstantni_symbol: 138
+#    prevest_dne: '2014-03-06'
+#    typ: Příchozí platba   
+#    kod_transakce: 2137569284
+#  Pohyby_200125:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -829.50
+#    datum: '2014-03-06'
+#    cas: '08:41'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: ALBERT HM 0198. PRAHA 4. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-04'
+#    typ: Platba kartou  
+#    kod_transakce: 516821
+#  Pohyby_200126:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: 1023.00
+#    datum: '2014-03-05'
+#    cas: '07:49'
+#    meny: CZK
+#    na_ucet: 5353802028/5500
+#    variabilni_symbol: 1
+#    zprava_pro_prijemce: Kateřina Damková
+#    prevest_dne: '2014-03-05'
+#    typ: Příchozí platba  
+#    kod_transakce: 2132917619
+#  Pohyby_200127:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -503.00
+#    datum: '2014-03-04'
+#    cas: '08:28'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: BEL&BLANC. PRAHA 4. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-02'
+#    typ: Platba kartou   
+#    kod_transakce: 084151
+#  Pohyby_200128:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -600.00
+#    datum: '2014-03-04'
+#    cas: '08:28'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: RB Centrum Chodov. Praha. Praha. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-02'
+#    typ: Výběr z bankomatu   
+#    kod_transakce: 649042
+#  Pohyby_200129:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -1000.00
+#    datum: '2014-03-04'
+#    cas: '08:28'
+#    meny: CZK
+#    na_ucet: 8323453/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: GEMB VYSTAVISTE. PRAHA 7. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-02'
+#    typ: Výběr z bankomatu  
+#    kod_transakce: 975601
+#  Pohyby_200130:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -329.00
+#    datum: '2014-03-04'
+#    cas: '08:28'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: MOTOREST ROHLENKA. TVAROZNA. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-01'
+#    typ: Platba kartou   
+#    kod_transakce: 041431
+#  Pohyby_200131:
+#    typ_uctu: bu
+#    mena: CZK
+#    castku: -499.50
+#    datum: '2014-03-04'
+#    cas: '08:28'
+#    meny: CZK
+#    na_ucet: 8323525/5500    
+#    zprava_pro_prijemce: 'PK: 408364XXXXXX2884'
+#    zprava_pro_mne: TESCO PRAHA SKALKA. PRAHA 10. CZE
+#    konstantni_symbol: 1178
+#    prevest_dne: '2014-03-01'
+#    typ: Platba kartou   
+#    kod_transakce: 205954

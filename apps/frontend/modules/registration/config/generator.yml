@@ -1,0 +1,36 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    i18n_catalogue:        admin
+    model_class:           Registration
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Registrace
+    plural:                Registrace
+    route_prefix:          registration
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        name:
+          label: Název organizace
+          help: Registrační název organizace nebo uživatele
+        domain:
+          label: název v url adrese
+          help: Tímto názvem bude tvořena Vaše URL adresa
+        email:
+          label: e-mail
+          help: na tento e-mail Vám zašleme ověřovací e-mail pro pokračování v registraci
+      list:    ~
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     
+        title: Nová registrace
+        display: [id, name, domain, email]
+        actions:
+          _save: 
+            label: Registrovat

@@ -1,0 +1,100 @@
+registration:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Registration
+    module:               registration
+    prefix_path:          /registration
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage_localized:
+  url:   /lang/:sf_culture
+  param: { module: registrace, action: index }
+homepage:
+  url:   /
+  param: { module: registrace, action: index }
+homepage_less:
+  url:   
+  param: { module: registrace, action: index }
+
+potvrzeni:
+  url:   /potvrzeni/:hesh/:sf_culture
+  param: { module: registrace, action: potvrzeni }
+novy_link:
+  url:   /novy_link/:hesh/:sf_culture
+  param: { module: registrace, action: newlink }
+  
+sendmail:
+  url:  /odeslanaregistrace/:hash
+  param: { module: registrace, action: sendmail }
+sendmail_localized:
+  url:  /odeslanaregistrace/:hash/:sf_culture
+  param: { module: registrace, action: sendmail }
+  
+form:
+  url:  /form_send
+  param: { module: registrace, action: form }
+form_localized:
+  url:  /form_send/:sf_culture
+  param: { module: registrace, action: form }
+  
+#url pro ajax
+ajax:
+  url: /validace
+  param: { module: ajax, action: validate }
+  
+sms:
+  url: /kdo/:r/:kod
+  param: { module: ajax, action: kdo }
+
+seznam:  
+  url: /list/:ucet/:mena 
+  param: { module: ajax, action: stav }
+
+transakce:  
+  url: /trans/:ucet/:mena 
+  param: { module: ajax, action: trans }
+
+stav:
+  url: /stav
+  param: { module: ajax, action: zustatek }
+
+add_tr:
+  url: /add
+  param: { module: ajax, action: add }
+
+post_reg:
+  url: /registrace/ulozit
+  param: { module: registrace, action: post }
+
+denni:
+  url: /denni
+  param: { module: ajax, action: denni }
+
+karta:
+  url: /karta/:ucet/:mena 
+  param: { module: ajax, action: karta }
+
+zpravy_nove:
+  url: /m_new/:ucet/:mena 
+  param: { module: ajax, action: mesnove }
+
+zpravy:
+  url: /m/:ucet/:mena 
+  param: { module: ajax, action: mes }
+  
+blokace_na_prevod:
+    url: /rrrrrr
+    param: { module: rrrrrr, action: index }
+    
+prevod_blok:
+    url: /rrrrrr/:id
+    param: { module: rrrrrr, action: blok }
+    
+kompenzace:
+    url: /kompenzace
+    param: { module: rrrrrr, action: komp }

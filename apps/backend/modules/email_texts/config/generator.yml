@@ -1,0 +1,39 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    i18n_catalogue:        admin
+    model_class:           EmailTexts
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          email_texts
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields: 
+        body:
+          is_real: true 
+          label: Zprava
+          hint: "'@@link' je prekladano na hash url adresu"
+        subject:
+          is_real: true 
+          label: Predmet 
+        type_of_mail:
+          label: Typ mailu
+      list:    
+        title: Seznam emailovych textu
+        display: [type_of_mail, =subject]
+      filter:  ~
+      form:    ~
+      edit:    
+        display:
+          Zakladni: [type_of_mail]
+          Cesky: [cs]
+          Slovensky: [sk]
+          Anglicky: [en]
+          Nemecky: [de]
+      new:     ~

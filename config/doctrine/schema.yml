@@ -1,0 +1,277 @@
+Pohyby:
+  actAs: 
+    Timestampable:
+  columns:
+    id: {type: integer, notnull: true, primary: true, autoincrement: true}
+    typ_uctu: 
+        type: enum
+        values:
+            - "bu"
+            - "sp"
+    mena:
+        type: enum
+        values:
+            - "CZK"
+            - "USD"
+            - "EUR"   
+    typ:
+        type: enum
+        values:
+            - "Převod"
+            - "Příchozí platba"
+            - "Úrok"
+            - "Daň"
+            - "Platba kartou"
+            - "Výběr z bankomatu"
+            - "Kompenzace"
+            - "Trvalý převod"
+            - "Správa účtu"
+            - "Poplatek za vedení karty"
+            - "Storno převodu"
+    karta: 
+        type: enum
+        values:
+            - "PK: 408364XXXXXX2884"
+            - "PK: 408359XXXXXX6465"
+    kod_transakce: string(15)
+    datum: date
+    cas: time
+    z_uctu: string(30)
+    v_mene:
+        type: enum
+        values:
+            - "CZK"
+            - "USD"
+            - "EUR"
+    na_ucet: string(30)
+    kod_banky: string(4)
+    castku: double
+    meny:
+        type: enum
+        values:
+            - "CZK"
+            - "USD"
+            - "EUR"
+    kurz: { type: double, default: 1.0 }
+    poplatek: { type: double, default: 0 }
+    zprava: { type: double, default: 0 }
+    variabilni_symbol: string(20)
+    konstantni_symbol: string(20)
+    specificky_symbol: string(20)
+    prevest_dne: date
+    ukonceni_platnosti: date
+    zprava_pro_prijemce: string(150)
+    zprava_pro_mne: string(150)
+    umoznit_castecnou_realizaci: boolean
+    realizovano: { type: boolean, default: false }
+    na_kompenzaci: { type: boolean, default: false }
+    datum_pripsani: date
+    cas_kompenzace: { type: time, default: '02:22' }
+    castka_kompenzace: { type: float, default: 0 }
+    
+Sms:
+  actAs: 
+    Timestampable:
+  columns:
+    id: {type: integer, notnull: true, primary: true, autoincrement: true}
+    kdo: string(20)
+    kod: string(20)
+    obsah: string(1500)
+    odeslano: {type: boolean, default: false}
+    overeno: {type: boolean, default: false}
+
+Blokace:
+  actAs: 
+    Timestampable:
+  columns:
+    id: {type: integer, notnull: true, primary: true, autoincrement: true}
+    datum: date
+    castka: double
+    karta: 
+        type: enum
+        values:
+            - "PK: 408364XXXXXX2884"
+            - "PK: 408359XXXXXX6465"
+    mena:
+        type: enum
+        values:
+            - "CZK"
+            - "USD"
+            - "EUR"   
+    obchod: string(100)
+    typ:
+        type: enum
+        values:
+            - "Platba kartou"
+            - "Výběr z bankomatu"
+    misto: string(50)
+    realizovano: {type: boolean, default: false}
+
+Kurz:
+  actAs: 
+    Timestampable:
+  columns:
+    mena:
+        type: enum
+        values:
+            - "CZK"
+            - "USD"
+            - "EUR"  
+        unique: true
+    kurz: double
+    
+Zpravy:    
+  actAs: 
+    Timestampable:
+  columns:
+    typ_uctu: 
+        type: enum
+        values:
+            - "bu"
+            - "sp"
+    mena:
+        type: enum
+        values:
+            - "CZK"
+            - "USD"
+            - "EUR"  
+    datum: date
+    popis: string(200)
+    text: clob
+    na_top: { type: boolean, default: true }
+    no_show: { type: boolean, default: false }
+    precteno: {type: boolean, default: false}
+    
+Pocatek:
+  actAs: 
+    Timestampable:
+  columns:
+    typ_uctu: 
+        type: enum
+        values:
+            - "bu"
+            - "sp"
+    mena:
+        type: enum
+        values:
+            - "CZK"
+            - "USD"
+            - "EUR"  
+    stav: double
+    urok: double
+  indexes:
+    name_index:
+      fields:
+        typ_uctu: []
+        mena: []
+      type: unique
+
+Texty:
+  actAs:
+    I18n:
+      fields: [text]
+  columns:
+    typ: 
+      type: enum
+      values: 
+        - "potvrzeni mailu"
+        - "neni hash"
+        - "neni mail"
+        - "hashin proccess"
+        - "Zaslat novy hash na email"
+        - "NeniTextMailu"
+        - "MailJizOdeslan"
+        - "Pro tento hash"
+        - "NastalaChyba"
+        - "LinkNaNovyMain"
+        - "linkNovyMainLink" 
+        - "Odeslani emailu"
+        - "na Vami uvedeny email"
+        - "novylink"
+        - "neni hash"
+        - "naMailBylOdeslanNovyHash"
+        - "potvrzeni_registrace_mailu"
+      unique: true
+    text: clob
+
+Registration:
+  actAs: 
+    Timestampable:
+  columns:
+    id: {type: integer, notnull: true, primary: true, autoincrement: true}
+    name: {type: string(50), notnull: true, unique: true}
+    domain: {type: string(50), notnull: true, unique: true}
+    email: {type: string(150), notnull: true}
+    checked: {type: boolean, default: true}
+    
+Registration_check:
+  actAs:
+    Timestampable:
+  columns:
+    id: {type: integer, notnull: true, primary: true, autoincrement: true}
+    reg_id: integer
+    hesh: {type: string(32), notnull: true, unique: true}
+    in_process: {type: boolean, default: false}
+  relations:
+    Registration:
+      local: reg_id
+      foreign: id
+    
+Registration_complet:
+  actAs:
+    Timestampable:
+  columns:
+    id: {type: integer, notnull: true, primary: true, autoincrement: true}
+    reg_id: integer
+    password: {type: string(32), notnull:true}
+    gen_password: string(100)
+  relations:
+    Registration:
+      local: reg_id
+      foreign: id
+
+Reserved:
+  actAs:
+    Timestampable:
+  columns:
+    id: {type: integer, notnull: true, primary: true, autoincrement: true}
+    word: {type: string(50), notnull: false, unique: false}
+    
+Notallowed:
+  actAs:
+    Timestampable:
+  columns:
+    id: {type: integer, notnull: true, primary: true, autoincrement: true}
+    word: {type: string(50), notnull: false, unique: false}
+    
+EmailTexts:
+  actAs:
+    Timestampable:
+    I18n:
+      fields: [body, subject]
+  columns:
+    id: {type: integer, notnull: true, primary: true, autoincrement: true}
+    body: clob
+    subject: string(100)
+    type_of_mail: 
+      type: enum
+      values: ["registrace","potvrzeni"]
+      default: registrace
+      
+SendedEmail:
+  actAs:
+    Timestampable:
+  columns:
+    id: {type: integer, notnull: true, primary: true, autoincrement: true}
+    reg_id: integer
+    hesh: string(32)
+    mail_id: integer
+    sended_od: date
+    send_success: boolean
+  relations:
+    EmailTexts:
+      local: mail_id
+      foreign: id
+    Registration:
+      local: reg_id
+      foreign: id

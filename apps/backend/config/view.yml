@@ -1,0 +1,24 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        IQPegas - Administrace
+    #description:  symfony project
+    #keywords:     symfony, project
+    language:     cs
+    robots:       noindex, nofollow
+
+  stylesheets:    [main_admin.css]
+
+  javascripts:    
+    - ../sfMediaBrowserPlugin/js/WindowManager.js
+    - jquery-1.4.4.min.js
+    - tiny_mce/tiny_mce.js
+    - jquery-ui-1.8.10.custom.min.js
+    
+  has_layout:     true
+  layout:         layout

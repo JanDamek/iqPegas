@@ -1,0 +1,23 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           pohyby
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          pohyby
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    
+          display: [=id, =typ_uctu, =typ, v_mene, =datum, =cas,=na_ucet, castku, meny, mena, realizovano, na_kompenzaci, datum_pripsani, cas_kompenzace]
+          sort: [datum, desc]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

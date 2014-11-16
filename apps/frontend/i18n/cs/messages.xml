@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+    <file source-language="EN" target-language="cs" datatype="plaintext" original="messages" date="2013-08-05T15:05:19Z" product-name="messages">
+        <header/>
+        <body>
+            <trans-unit id="1">
+                <source>Nová registrace</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Název organizace</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Registrační název organizace nebo uživatele</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>název v url adrese</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Tímto názvem bude tvořena Vaše URL adresa</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>e-mail</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>na tento e-mail Vám zašleme ověřovací e-mail pro pokračování v registraci</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>NoSended</source>
+                <target>Zprávy nebyla odeslána z technických důvodů na serveru.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>NastalaChyba</source>
+                <target>Při pokusu o odeslání zprávy došlo k chybě. Následuje obsah emailu, aby jste mohli pokračovat.</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>NeniTextMailu</source>
+                <target>Není nastaven obsah mailu. Tuto chybu musí napravit správce systému.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>potvrzeni mailu</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>neni hash</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Pro tento hash jiz byl odeslan email a vygenerovany pristup. Prosim skontrolujte si email a kliknete na odkaz uvedeny v tom emailu</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Odeslani emailu</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>na Vami uvedeny email byl zasla potvrzovaci email, s odkazem pro aktivaci.</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>MailJizOdeslan</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="1">
+                <source>novylink</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>naMailBylOdeslanNovyHash</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>neni mail</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>hashinproccess</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Zaslat novy hash na email</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Pro tento hash</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>LinkNaNovyMain</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>linkNovyMain</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>na Vami uvedeny email</source>
+                <target/>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Required.</source>
+                <target>Položka je požadovaná.</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Invalid.</source>
+                <target>Položka není ve správném tvaru.</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Value "%value%" is forbidden</source>
+                <target>Hodnota "%value%" není dovolena.</target>
+            </trans-unit>      
+            <trans-unit id="13">
+                <source>Value "%value%" is reserved</source>
+                <target>Hodnota "%value%" je rezervována systémem</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>An object with the same "%value%" already exist.</source>
+                <target>Hodnota "%value%" je již použitá.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
+
